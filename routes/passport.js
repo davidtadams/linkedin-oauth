@@ -14,11 +14,10 @@ passport.use(new LinkedInStrategy({
     // represent the logged-in user. In a typical application, you would want
     // to associate the LinkedIn account with a user record in your database,
     // and return that user instead.
-    return done(null, profile);
+    return done(null, {id: profile.id, displayName: profile.displayName});
   });
 }));
 
-// above app.use('/', routes);...
 passport.serializeUser(function(user, done) {
   done(null, user);
 });

@@ -15,4 +15,13 @@ router.get('/linkedin/callback', passport.authenticate('linkedin', {
   failureRedirect: '/login'
 }));
 
+
+router.get('/logout', function(req, res, next) {
+  //clear cookie
+  req.session.destroy(function(err) {
+    console.log(err);
+  });
+  res.redirect('/');
+});
+
 module.exports = router;
