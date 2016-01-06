@@ -8,7 +8,6 @@ router.get('/', function(req, res, next) {
       .header('Authorization', 'Bearer ' + req.user.token)
       .header('x-li-format', 'json')
       .end(function (response) {
-        console.log(response.body);
         res.render('index', { profile: response.body });
       })
   } else {
