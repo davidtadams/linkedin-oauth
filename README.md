@@ -6,6 +6,9 @@
 - Scan the doc to see how it's organized
 - Follow the instructions in Activities
 
+#### Deployed URL
+[Heroku deployed URL](http://stark-hamlet-8446.herokuapp.com/)
+
 ## Objectives
 
 There are two main goals for this lesson: to get familiar with Passport, and to hone your documentation interaction abilities.  Note "documentation interaction" - not "reading documentation".  Documentation is rarely a step-by-step tutorial.  Instead, it's an active process of knowing what to look for, seeking it out, pattern matching and only pulling in the few lines necessary to satisfy the errors you are getting.
