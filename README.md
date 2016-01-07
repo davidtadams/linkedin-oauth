@@ -7,7 +7,7 @@
 - Follow the instructions in Activities
 
 #### Deployed URL
-[Heroku deployed URL](http://stark-hamlet-8446.herokuapp.com/)
+<a href="http://stark-hamlet-8446.herokuapp.com/" target="_blank">Heroku deployed URL</a>
 
 ## Objectives
 
